@@ -1,0 +1,13 @@
+create database Assignment;
+use Assignment;
+create table Records(ID int primary key,
+ First_Name varchar(20),
+ Last_Name varchar(20),
+ Degree varchar(30),
+ Address varchar(30),
+ Age int,
+ Contact_Number varchar(20),
+ Gender varchar(20));
+desc Records;
+drop table Records;
+select * from Records;
